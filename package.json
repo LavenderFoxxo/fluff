@@ -1,10 +1,10 @@
 {
   "name": "fluff-bot",
-  "version": "1.0.0",
-  "description": "Furry Bot for furry servers :3",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "A multi-purpose furry bot for furry servers.",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "test": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -13,23 +13,20 @@
   "keywords": [
     "furry",
     "discord",
-    "discord",
-    "bot"
+    "bot",
+    "actions"
   ],
-  "author": "Lavender",
+  "author": "Alexander Hyman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/LavenderFoxxo/fluff/issues"
   },
   "homepage": "https://github.com/LavenderFoxxo/fluff#readme",
   "dependencies": {
-    "axios": "^1.3.2",
+    "axios": "^1.3.4",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
-    "mongoose": "^6.9.1",
-    "node-os-utils": "^1.3.7",
-    "nodemon": "^2.0.20",
-    "pretty-ms": "^7.0.1",
-    "statcord.js": "^3.4.3"
+    "mysql2": "^3.2.0",
+    "node-os-utils": "^1.3.7"
   }
 }
